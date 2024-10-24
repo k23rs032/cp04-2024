@@ -38,6 +38,10 @@
         $('#btnC').click(function(e) {
             btnCClick(e);
         });
+
+        $('#btnD').click(function(e) {
+            btnDClick(e);
+        });
         init();
     });
     
@@ -163,6 +167,8 @@
         $('#btnA').prop('disabled', false);
         $('#btnB').prop('disabled', false);
         $('#btnC').prop('disabled', false);
+        $('#btnD').prop('disabled', false);
+
         
     }
 
@@ -196,6 +202,15 @@
 
     // ButtonCがクリックされた時の処理
     function btnCClick(e){
+        active = false;
+        
+        
+         
+        
+    }
+
+    // ButtonDがクリックされた時の処理
+    function btnDClick(e){
         //alarm();
         active = false;
         period = 60* parseInt( $("#minute").val() ) + parseInt( $("#second").val() );
