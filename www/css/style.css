@@ -47,8 +47,6 @@
     #btnA {
         font-size: 35px;
         position:absolute; top:380px; left:2%; width:50%; height:60px; 
-        background-color: yellow;
-        color: green;
     }
     
     #btnB {
@@ -84,8 +82,9 @@
     }
 
     button{
-        color: blue;
+        color: white;
         font-family: Times;
         border-radius: 20px;
         font-weight:bold;
+        background-color: blue;
     }
